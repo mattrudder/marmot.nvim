@@ -1,5 +1,12 @@
-A Lush Theme for Neovim.
-===
+# Marmot theme for NeoVim
 
-See: http://git.io/lush.nvim for more information on Lush and a helper script
-to setup your repo clone.
+Based on wombat256mod and the iTerm 2 Wombat colors, via the original [Wombar Lush port by ViViDboarder](https://github.com/ViViDboarder/wombat.nvim). Using this as a starting point for my [similarly named customizations](https://studiostyl.es/schemes/marmot) of Wombat for Visual Studio.
+
+Created with [Lush](http://git.io/lush.nvim)
+
+## Installation with Packer
+
+    use {
+        "mattrudder/marmot.nvim",
+        requires = "rktjmp/lush.nvim",
+    }
